@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.23.2
 
 RUN apk add --no-cache binutils make cmake gcc g++ ncurses-static libpcap-dev ncurses-dev gsl-dev git
 
